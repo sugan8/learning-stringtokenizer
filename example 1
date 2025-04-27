@@ -1,0 +1,10 @@
+import java.util.*;
+class stringtokenizer{
+    public static void main (String args[]){
+        String s="his name is sugan";
+        StringTokenizer name=new StringTokenizer(s);
+        while(name.hasMoreTokes()){
+            System.out.println(name.nextToken());
+        }
+    }
+}
