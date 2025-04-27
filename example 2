@@ -1,0 +1,14 @@
+import java.util.*;
+
+class StringTokenizerExample {
+    public static void main(String args[]) {
+        String s = "his name is sugan";
+        StringTokenizer name = new StringTokenizer(s);
+
+        System.out.println("The total number of tokens are: " + name.countTokens());
+
+        while (name.hasMoreTokens()) {
+            System.out.println(name.nextToken());
+        }
+    }
+}
